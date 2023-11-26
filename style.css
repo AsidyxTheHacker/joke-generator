@@ -45,7 +45,7 @@ p {
 
 #btn {
     display: block;
-    background-color: #fa2e31;
+    background-color: #e42e31;
     border: none;
     font-size: 18px;
     color: #15161a;
@@ -53,5 +53,11 @@ p {
     padding: 12px 25px;
     margin: 0 auto;
     border-radius: 5px;
+    transition: .2s;
     cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #ff4447;
+    color: white;
 }
